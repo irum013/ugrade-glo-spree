@@ -70,3 +70,4 @@ gem 'spree_gateway', '~> 3.11' # payment gateways eg. Stripe, Braintree (optiona
 # existed repo gems 
 gem 'spree_multi_vendor'
 gem 'spree_multi_domain', github: 'zainrafique/spree-multi-domain'
+gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
