@@ -19,6 +19,8 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
+gem 'stringio', '~> 3.1.2'
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -64,3 +66,6 @@ gem 'spree_emails', '~> 4.10' # transactional emails (optional)
 gem 'spree_sample', '~> 4.10' # dummy data like products, taxons, etc (optional)
 gem 'spree_auth_devise', '~> 4.6' # Devise integration (optional)
 gem 'spree_gateway', '~> 3.11' # payment gateways eg. Stripe, Braintree (optional)
+
+# existed repo gems 
+gem 'spree_multi_vendor'

@@ -52,5 +52,6 @@ end
 # Spree::Api::Dependencies.storefront_cart_serializer = 'MyRailsApp::CartSerializer'
 
 Spree.user_class = "Spree::User"
+SpreeMultiVendor::Config[:vendorized_models] = %w[product variant stock_location shipping_method]
 # Use a different class for admin users
 # Spree.admin_user_class = 'AdminUser'
